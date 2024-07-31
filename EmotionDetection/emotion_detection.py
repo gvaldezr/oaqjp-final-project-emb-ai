@@ -19,7 +19,7 @@ def emotion_detector(text_to_analyse):
         'fear' : fear_score,
         'joy' : joy_score,
         'sadness' : sadness_score,
-        'dominant' : dominant
+        'dominant' : dominant[0]
     }
     return res    
     #formatted_response = json.loads(response.text)
